@@ -18,7 +18,7 @@
 
             <Label x:Name="sliderVlaueLabel" 
                    BindingContext="{x:Reference slider}"
-                   Text="{Binding Path=Value, StringFormat='Value is {0:F2}' }"
+                   Text="{Binding Path=Value }"
                    Opacity="{Binding Path=Value}"
                    FontSize="Large"/>
 
